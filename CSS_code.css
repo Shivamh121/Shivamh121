@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.SBRC-image-design{
+    height:65px;
+    width:65px;
+}
+
+#navbar-button-style{
+    color:white;
+    font-family:"Monospace";
+    font-size:17px;
+    font-weight:bold
+}
+#navbar-section-style {
+    position:fixed;
+    z-index:10;
+    width:100%;
+}
+
+.hero-section-bg-container {
+    background-image: url("https://images.pexels.com/photos/14303316/pexels-photo-14303316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    height: 100vh;
+    background-size: cover;
+    text-align: center;
+}
+
+.hero-section-main-heading {
+    font-family: "Roboto";
+    color: white;
+    font-size: 35px;
+
+}
+
+.event-name-style {
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.hero-section-paragraph {
+    font-family: "Roboto";
+    color: white;
+}
+
+.eventes-detail-bg-container {
+    background-color: #222222;
+    font-family: "Bree Serif";
+
+    padding: 10px;
+}
+
+.eventes-detail-main-heading {
+    text-align:center;
+    color: #f19116;
+    font-size: 37px;
+}
+
+.eventes-detail-card-container {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.image-design {
+    border-radius: 10px;
+    height: 200px;
+    width: 155px;
+}
+
+.Event-Details-card-text-container {
+    padding: 10px;
+}
+
+.Event-Details-card-main-heading {
+    font-size: 26px;
+}
+
+.Event-Details-card-paragraph {
+    color: #6c6b70;
+    font-size: 15px;
+}
+
+.Contacts-bg-container {
+    background-color: #0d2436;
+    padding: 15px;
+}
+
+.Contacts-main-heading {
+    text-align: center;
+    color: #cced00;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.Contacts-paragraph {
+    color: grey;
+}
+
+.Contacts-heading {
+    color: #cced00;
+    font-family: "Roboto";
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.contact-icon-design {
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+
+}
+
+.contact-email {
+    color: white;
+}
+
+.horizontal-line{
+    border-color:white;
+    border-width:1px;
+    margin-top:20px;
+}
+
+.freq-ask-ques-bg-container{
+    text-align:center;
+    background-color: #f9f9f9;
+    font-family:"Serif";
+    margin-bottom:50px;
+    padding:15px;
+}
+
+.freq-ask-ques-main-heading{
+    margin-bottom:15px;
+}
+
+.faqs-card-contaiiner{
+    background-color:white;
+    border-style:solid;
+    border-radius:5px;
+    border-width:1px;
+    width:100%;
+    margin-bottom:10px;
+}
+
+.faqa-questions{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.faqs-answer{
+    font-size:17px;
+}

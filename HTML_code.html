@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="CSS_code.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/197d24e4db.js" crossorigin="anonymous"></script>
+
+    
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style= "background-color:transparent;"; id="navbar-section-style">
+        <a class="navbar-brand" href="#">
+            <img src="data:image/jpeg;base64,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" class="SBRC-image-design" />
+        </a>
+        <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link active" id="navbar-button-style" href="#heroSection">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" id="navbar-button-style" href="#eventspageSection">Events</a>
+                <a class="nav-link" id="navbar-button-style" href="#ContactsSection">Contacts</a>
+                <a class="nav-link" id="navbar-button-style" href="#FAQsSection">FAQs</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-12" id = "heroSection">
+                <div class="hero-section-bg-container d-flex flex-column justify-content-center">
+                    <h1 class="hero-section-main-heading">Join Us For <span class="event-name-style ">Social Networking Summit</span></h1>
+                    <p class="hero-section-paragraph">Unlock the Future with Innovation and Networking</p>
+                    <div>
+                        <button class="btn btn-success">Register Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12" id = "eventspageSection">
+                <div class="eventes-detail-bg-container">
+                    <h1 class="eventes-detail-main-heading">Event Details</h1>
+                    <div class="eventes-detail-card-container d-flex flex-row ">
+                        <div class="mr-2 p-2">
+                            <img src="https://media.licdn.com/dms/image/v2/C5612AQGD0FUSKQRX9Q/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1602129987189?e=2147483647&v=beta&t=HNBc_o9udZHN6-Z-PdGHLZQN1RO9foNMYkHjsKjbeF4" class="image-design shadow" />
+                        </div>
+                        <div class="Event-Details-card-text-container">
+                            <h1 class="Event-Details-card-main-heading">Networking Opportunities</h1>
+                            <p class="Event-Details-card-paragraph">Whether you're looking to collaborate, share insights, or expand your professional circle, the summit creates endless opportunities to build meaningful relationships and foster future partnerships.</p>
+                        </div>
+                    </div>
+                    <div class="eventes-detail-card-container d-flex flex-row">
+                        <div class="mr-2 p-2">
+                            <img src="https://images.unsplash.com/photo-1538449327350-43b4fcfd35ac?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="image-design shadow" />
+                        </div>
+                        <div class="Event-Details-card-text-container">
+                            <h1 class="Event-Details-card-main-heading">Expert Speakers</h1>
+                            <p class="Event-Details-card-paragraph">The Social Networking Summit brings together industry-leading experts to share insights on the latest trends in digital marketing, social media strategies, influencer collaborations, cybersecurity, and emerging technologies.</p>
+                        </div>
+                    </div>
+                    <div class="eventes-detail-card-container d-flex flex-row">
+                        <div class="mr-2 p-2">
+                            <img src="https://img.freepik.com/premium-photo/group-question-marks-with-bright-glowing-futuristic-blue-neon-lights-black-background-3d_989822-4073.jpg" class="image-design shadow" />
+                        </div>
+                        <div class="Event-Details-card-text-container">
+                            <h1 class="Event-Details-card-main-heading">Q&A with Industry-Leading Experts</h1>
+                            <p class="Event-Details-card-paragraph">A live session where attendees can ask influencers about their journey, tips, and tricks, </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12" id = "ContactsSection">
+                <div class="Contacts-bg-container">
+                    <h1 class="Contacts-main-heading">Contacts</h1>
+                    <p class="Contacts-paragraph">If You have any Doubts Regarding the events you can always reach out to us via E-mail, Phone, Twitter, Instagram, Facebook and Linkedin.</p>
+                    <div class="d-flex flex-row">
+                        <div class="m-auto">
+                            <h1 class="Contacts-heading">E-mail</h1>
+                            <div>
+                                <div class="d-flex flex-row">
+                                    <i class="fa-solid fa-envelope contact-icon-design"></i>
+                                    <p class="contact-email">xyz@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="m-auto">
+                            <div>
+                                <h1 class="Contacts-heading">Phone</h1>
+                                <div class="d-flex flex-row">
+                                    <i class="fa-solid fa-phone contact-icon-design"></i>
+                                    <p class="contact-email">1234567890</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="m-auto">
+                            <h1 class="Contacts-heading">Twitter</h1>
+                            <div class="d-flex flex-row">
+                                <i class="fa-brands fa-twitter contact-icon-design"></i>
+                                <a class="contact-email">Link</a>
+                            </div>
+                        </div>
+                        <div class="m-auto">
+                            <h1 class="Contacts-heading">Instagram</h1>
+                            <div class="d-flex flex-row">
+                                <i class="fa-brands fa-instagram contact-icon-design"></i>
+                                <a class="contact-email">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <div class="m-auto">
+                            <h1 class="Contacts-heading">Facebook</h1>
+                            <div class="d-flex flex-row">
+                                <i class="fa-brands fa-facebook contact-icon-design"></i>
+                                <a class="contact-email">Link</a>
+                            </div>
+                        </div>
+                        <div class="m-auto">
+                            <h1 class="Contacts-heading">Linkedin</h1>
+                            <div class="d-flex flex-row">
+                                <i class="fa-brands fa-linkedin contact-icon-design"></i>
+                                <a class="contact-email">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="horizontal-line" />
+                </div>
+            </div>
+        </div>
+        <div class="freq-ask-ques-bg-container" id = "FAQsSection">
+            <h2 class="freq-ask-ques-main-heading">Frequently Asked Questions</h2>
+            <div class="faqs-card-contaiiner shadow-lg">
+                <details>
+                    <summary class="faqa-questions">What is the event about?</summary>
+                    <p class="faqs-answer">This event is about innovation and networking opportunities with industry leaders.</p>
+                </details>
+            </div>
+            <div class="faqs-card-contaiiner shadow-lg">
+                <details>
+                    <summary class="faqa-questions">Is there any registration fee?</summary>
+                    <p>No, the event is free of charge for all attendees.</p>
+                </details>
+            </div>
+            <div class="faqs-card-contaiiner shadow-lg">
+                <details>
+                    <summary class="faqa-questions">Who Can apply for this event</summary>
+                    <p>The event is open to all the enthusiastic students, Teachers or Professors</p>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <script
+    type="text/javascript"
+    src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"
+  ></script>
+</body>
+
+</html>
